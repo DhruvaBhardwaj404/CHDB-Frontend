@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1622716559 source:/home/Death/Desktop/C++ developement/Database Server/Database Server/main.cpp
+	<iostream>
+	<asio.hpp>
+	"Server_DB.h"
+
+1623843951 /home/Death/Desktop/C++ developement/Database Server/Database Server/include/Server_DB.h
+	<asio.hpp>
+	<memory>
+	<thread>
+	<atomic>
+	<future>
+	<bitset>
+	<mutex>
+	"Client_DB.h"
+	"Client_Handlers.h"
+
+1623840662 /home/Death/Desktop/C++ developement/Database Server/Database Server/include/Client_DB.h
+	<asio.hpp>
+	<memory>
+	<iostream>
+	<future>
+	<cstring>
+	"functions_Server.h"
+
+1623845444 source:/home/Death/Desktop/C++ developement/Database Server/Database Server/src/Client_DB.cpp
+	"Client_DB.h"
+
+1623845836 source:/home/Death/Desktop/C++ developement/Database Server/Database Server/src/Server_DB.cpp
+	"Server_DB.h"
+
+1623149270 /home/Death/Desktop/C++ developement/Database Server/Database Server/include/functions_Server.h
+	<vector>
+	<algorithm>
+	<iostream>
+	<asio.hpp>
+
+1623238919 source:/home/Death/Desktop/C++ developement/Database Server/Database Server/src/functions_Server.cpp
+	"functions_Server.h"
+
+1623841098 /home/Death/Desktop/C++ developement/Database Server/Database Server/include/Client_Handlers.h
+	<iostream>
+	<future>
+	<bitset>
+	<mutex>
+	<memory>
+	<atomic>
+	"Client_DB.h"
+
+1623843931 source:/home/Death/Desktop/C++ developement/Database Server/Database Server/src/Client_Handlers.cpp
+	"Client_Handlers.h"
+
