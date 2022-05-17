@@ -50,3 +50,83 @@
 1623843931 source:/home/Death/Desktop/C++ developement/Database Server/Database Server/src/Client_Handlers.cpp
 	"Client_Handlers.h"
 
+1652695195 source:/home/Death/Desktop/C++ developement/Database Frontend/Database Server/main.cpp
+	<iostream>
+	<asio.hpp>
+	"Server_DB.h"
+	<boost/interprocess/managed_shared_memory.hpp>
+	<sys/types.h>
+	"Listener.h"
+
+1623843951 /home/Death/Desktop/C++ developement/Database Frontend/Database Server/include/Server_DB.h
+	<asio.hpp>
+	<memory>
+	<thread>
+	<atomic>
+	<future>
+	<bitset>
+	<mutex>
+	"Client_DB.h"
+	"Client_Handlers.h"
+
+1623921310 /home/Death/Desktop/C++ developement/Database Frontend/Database Server/include/Client_DB.h
+	<asio.hpp>
+	<memory>
+	<iostream>
+	<future>
+	<cstring>
+	"functions_Server.h"
+
+1623149270 /home/Death/Desktop/C++ developement/Database Frontend/Database Server/include/functions_Server.h
+	<vector>
+	<algorithm>
+	<iostream>
+	<asio.hpp>
+
+1623841098 /home/Death/Desktop/C++ developement/Database Frontend/Database Server/include/Client_Handlers.h
+	<iostream>
+	<future>
+	<bitset>
+	<mutex>
+	<memory>
+	<atomic>
+	"Client_DB.h"
+
+1623845444 source:/home/Death/Desktop/C++ developement/Database Frontend/Database Server/src/Client_DB.cpp
+	"Client_DB.h"
+
+1623843931 source:/home/Death/Desktop/C++ developement/Database Frontend/Database Server/src/Client_Handlers.cpp
+	"Client_Handlers.h"
+
+1623238919 source:/home/Death/Desktop/C++ developement/Database Frontend/Database Server/src/functions_Server.cpp
+	"functions_Server.h"
+
+1623846052 source:/home/Death/Desktop/C++ developement/Database Frontend/Database Server/src/Server_DB.cpp
+	"Server_DB.h"
+
+1651120411 source:/home/Death/Desktop/C++ developement/Database Frontend/Database Server/src/Listener/Listener.cpp
+	"Listener.h"
+
+1652330878 /home/Death/Desktop/C++ developement/Database Frontend/Database Server/include/Listener.h
+	<asio.hpp>
+	"Request_Emitter.h"
+	"Request_Identifier.h"
+
+1652330856 source:/home/Death/Desktop/C++ developement/Database Frontend/Database Server/src/Emitter/Request_Emitter.cpp
+	"Request_Emitter.h"
+
+1652330841 /home/Death/Desktop/C++ developement/Database Frontend/Database Server/include/Request_Emitter.h
+	<asio.hpp>
+	<iostream>
+	"paramDefinitions.h"
+
+1652327691 /home/Death/Desktop/C++ developement/Database Frontend/Database Server/include/paramDefinitions.h
+
+1652329439 source:/home/Death/Desktop/C++ developement/Database Frontend/Database Server/src/Identifier/Request_Identifier.cpp
+	"Request_Identifier.h"
+
+1652329392 /home/Death/Desktop/C++ developement/Database Frontend/Database Server/include/Request_Identifier.h
+	<asio.hpp>
+	<iostream>
+	"paramDefinitions.h"
+

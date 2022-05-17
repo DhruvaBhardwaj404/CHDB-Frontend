@@ -1,0 +1,12 @@
+#ifndef PARAMDEFINITIONS_H
+#define PARAMDEFINITIONS_H
+
+//Backend socket addresses and ports
+#define SOCKET_ALIVE_IP "127.0.0.1"
+#define SOCKET_ALIVE_PORT 5010
+#define SOCKET_CONHAN_IP "127.0.0.1"
+#define SOCKET_CONHAN_PORT  5009
+#define SOCKET_QPAR_IP "127.0.0.1"
+#define SOCKET_QPAR_PORT 5008
+
+#endif // PARAMDEFINITIONS_H
