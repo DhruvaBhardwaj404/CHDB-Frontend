@@ -15,6 +15,7 @@
 					<Add option="-std=c++14" />
 					<Add option="-std=c++17" />
 					<Add option="-pthread" />
+					<Add option="-lboost_thread" />
 					<Add option="-lboost_filesystem" />
 					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS" />
 					<Add option="-lboost_system" />
@@ -51,21 +52,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Client_DB.h" />
-		<Unit filename="include/Client_Handlers.h" />
 		<Unit filename="include/Listener.h" />
 		<Unit filename="include/Request_Emitter.h" />
 		<Unit filename="include/Request_Identifier.h" />
-		<Unit filename="include/Server_DB.h" />
 		<Unit filename="include/functions_Server.h" />
 		<Unit filename="include/paramDefinitions.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Client_DB.cpp" />
-		<Unit filename="src/Client_Handlers.cpp" />
 		<Unit filename="src/Emitter/Request_Emitter.cpp" />
 		<Unit filename="src/Identifier/Request_Identifier.cpp" />
 		<Unit filename="src/Listener/Listener.cpp" />
-		<Unit filename="src/Server_DB.cpp" />
+		<Unit filename="src/Listener/ListenerTEST.cpp" />
 		<Unit filename="src/functions_Server.cpp" />
 		<Extensions>
 			<code_completion />

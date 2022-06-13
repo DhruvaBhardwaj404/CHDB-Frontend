@@ -1,27 +1,31 @@
-#include <iostream>
-#include<asio.hpp>
-#include"Server_DB.h"
-#include<boost/interprocess/managed_shared_memory.hpp>
-#include<sys/types.h>
+#include"paramDefinitions.h"
 #include"Listener.h"
+#include<gtest/gtest.h>
 
+#define GLOBAL_DEBUG false
 #define DEBUG_MAIN true
 
 using namespace std;
 
-pid_t QH,AH,CH;
-boost::interprocess::managed_shared_memory memQH,memAH,memCH;
+list<string> mesRE;
+mutex MRE;
 
-void init_SharedMem(){
-}
-
-int main()
+int main(int argc, char **argv)
 {
-    Listener Server;
-    while(true){
-        ;
-    }
+        char banner[6][50]= {{"|==============================================|"},
+                             {"|         Cloud-Hybird Database FE             |"},
+                             {"|                 MEGH KOSH                    |"},
+                             {"|                Created by-                   |"},
+                             {"|                  Dhruva                      |"},
+                             {"|==============================================|"}
+                            };
 
+        for(int a=0; a<6; a++)
+        {
+            cout<<"\t\t\t"<<banner[a]<<endl;
+        }
+    Listener Server;
+    Server.run_Listener();
 }
 
 
